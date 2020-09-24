@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+
+
+    <div class="player-choice">
+
+        <div class="player-player player-box">
+            <h2>Player vs. Player</h2>
+            <div class="player-img">
+                <img src="images/human-male-head-right.png" alt="">
+                <img src="images/human-male-head-left.png" alt="">
+
+            </div>
+            <button type="button" data-choice="player">Select</button>
+        </div>
+
+        <div class="player-ai player-box">
+            <h2>Player vs. AI</h2>
+            <div class="player-img">
+                <img src="images/human-male-head-right.png" alt="">
+                <img src="images/robot-line.png" alt="">
+            </div>
+            <button type="button" data-choice="ai">Select</button>
+        </div>
+
+    </div>
+
+
+    <div class="popup-background">
+
+        <div class="popup">
+
+            <form action="#">
+                <p class="name-1">Player one name:</p>
+                <input id="player-1-name" type="text" name="player-1" required>
+
+                <p class="name-2">Player two name:</p>
+                <input id="player-2-name" type="text" name="player-2" required>
+
+                <button type="button" class="btn">Start</button>
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <div class="alert">
+        <h2></h2>
+    </div>
+
+
+    <div class="gameboard">
+        <div class="tile-0" data-tile="0"></div>
+        <div class="tile-1" data-tile="1"></div>
+        <div class="tile-2" data-tile="2"></div>
+        <div class="tile-3" data-tile="3"></div>
+        <div class="tile-4" data-tile="4"></div>
+        <div class="tile-5" data-tile="5"></div>
+        <div class="tile-6" data-tile="6"></div>
+        <div class="tile-7" data-tile="7"></div>
+        <div class="tile-8" data-tile="8"></div>
+    </div>
+
+    <div class="replay">
+        <button type="button">Play Again</button>
+    </div>
+
+    <footer>
+        <div class="follow">
+            <p>Follow me on GitHub:</p>
+            <a href="https://github.com/rahimratnani">
+                <img src="images/github-white.svg">
+            </a>
+
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
