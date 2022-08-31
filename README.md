@@ -11,4 +11,4 @@ AI Mode uses the [minimax](https://en.wikipedia.org/wiki/Minimax) algorithm to m
 - CSS
 - JavaScript
 
-See it live [here](https://rahimratnani.github.io/tic-tac-toe/).
+See it live **[here](https://rahimratnani.github.io/tic-tac-toe/)**.
