@@ -22,8 +22,8 @@ h1 {
 .player-choice {
   position: absolute;
   left: 50%;
+  transform: translateX(-50%);
   top: 25%;
-  margin-left: -290px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -240,20 +240,6 @@ form .btn:hover {
 }
 
 /* Play Again button */
-/* .replay button {
-  padding: 5px 10px;
-  font-size: 1rem;
-  border: none;
-  text-decoration: none;
-  text-align: center;
-  display: none;
-  background-color: #1d3557;
-  color: #f8f7f6;
-  cursor: pointer;
-  border-radius: 6px;
-  outline: none;
-  margin: 430px auto auto auto;
-} */
 
 .replay button {
   padding: 5px 10px;
@@ -267,6 +253,10 @@ form .btn:hover {
   cursor: pointer;
   border-radius: 6px;
   outline: none;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Footer */
@@ -305,8 +295,6 @@ footer {
   }
 
   .player-choice {
-    left: 85%;
-    top: 15%;
     flex-direction: column;
   }
 
@@ -322,8 +310,4 @@ footer {
     width: 100px;
     height: 100px;
   }
-
-  /* .replay button {
-    margin: 380px auto auto auto;
-  } */
 }
